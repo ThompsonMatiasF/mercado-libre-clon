@@ -1,0 +1,20 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">" !important;
+  font-weight: normal;
+}
+
+.breadcrumb li{
+  padding: 0;
+}
+
+.breadcrumb li:last-child {
+  font-weight: bolder;
+}
+
+ol.breadcrumb {
+  padding: 16px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+}
+

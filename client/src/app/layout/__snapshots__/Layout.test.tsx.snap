@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout.tsx should match snapshot 1`] = `
+<div>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="bg-warning row"
+    >
+      <div
+        class="display-range container"
+      >
+        <div
+          class="bg-yellow row"
+        >
+          <div
+            class="col-10 offset-1"
+          >
+            <p>
+              header
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="display-range container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-10 offset-1"
+          >
+            <p>
+              children
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

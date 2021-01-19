@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadCrumb.tsx should match snapshot 1`] = `
+<div>
+  <nav
+    aria-label="breadcrumb"
+  >
+    <ol
+      class="breadcrumb"
+    >
+      <li
+        aria-current="page"
+        class="breadcrumb-item active"
+      >
+        Celulares y Teléfonos
+      </li>
+      <li
+        aria-current="page"
+        class="breadcrumb-item active"
+      >
+        Celulares y Smartphones
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

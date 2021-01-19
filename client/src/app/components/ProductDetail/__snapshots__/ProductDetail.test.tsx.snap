@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetail.tsx Should match snapshot 1`] = `
+<div>
+  <div
+    class="detail bg-white"
+  >
+    <div>
+      <div
+        class="d-flex justify-content-between flex-wrap-reverse"
+      >
+        <div
+          class="product"
+        >
+          <img
+            alt="product image"
+            class=""
+            src="https://domain.com/image.png"
+          />
+          <div>
+            <span
+              class="h3"
+            >
+              Descripcion del producto
+            </span>
+            <p
+              style="width: 100%;"
+            >
+              Iphone X 128g, nuevo, en caja cerrada con garantía oficial
+            </p>
+          </div>
+        </div>
+        <div
+          class="buy mb-5"
+        >
+          <span
+            class="d-block"
+          >
+            new - 2 vendidos
+          </span>
+          <span
+            class="d-block font-weight-bold"
+          >
+            Iphone X 128gb
+          </span>
+          <span
+            class="d-block"
+          >
+            $
+             
+            100
+          </span>
+          <button
+            class="btn btn-primary btn-block"
+            type="button"
+          >
+            Comprar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

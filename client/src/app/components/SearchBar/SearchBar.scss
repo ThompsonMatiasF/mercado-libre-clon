@@ -1,0 +1,13 @@
+@import "src/styles/custom";
+
+.search-bar {
+  .form-control {
+    border-color: $white !important;
+    font-size: 18px !important;
+  }
+
+  .btn.btn-primary {
+    background-color: $gray-200;
+    border-color: $gray-200;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mercado-libre-clon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "yarn --cwd ./client/ && yarn --cwd ./server/",
+    "start": "yarn run dev",
+    "dev": "concurrently \"yarn --cwd ./server/ run dev\" \"yarn --cwd ./client/ run dev\"",
+    "prod": "yarn --cwd ./server/ run prod"
+  },
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "forever": "^2.0.0"
+  }
+}

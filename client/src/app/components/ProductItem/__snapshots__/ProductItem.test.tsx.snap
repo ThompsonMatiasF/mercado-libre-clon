@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductItem.tsx Should match snapshot 1`] = `
+<div>
+  <li
+    class="d-flex item"
+  >
+    <img
+      alt="product image"
+      src="https://domain.com/image.png"
+    />
+    <div
+      class="flex-grow-1"
+    >
+      <div
+        class="d-flex justify-content-between align-items-center"
+      >
+        <span
+          class="d-flex align-items-center price"
+        >
+          $
+           
+          100
+          <img
+            alt="free shipping icon"
+            class="ml-2"
+            src="/assets/images/shipping-min.png"
+          />
+        </span>
+        <span
+          class=" location"
+        >
+          Capital Federal
+        </span>
+      </div>
+      <p>
+        Iphone X 128gb
+      </p>
+    </div>
+  </li>
+</div>
+`;
